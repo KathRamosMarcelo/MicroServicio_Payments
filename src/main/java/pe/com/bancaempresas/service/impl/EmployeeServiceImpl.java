@@ -17,7 +17,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 	@Override
 	public void createEmploye(Employee employe) {
-		employeeRepo.save(employe).subscribe();
+		 employeeRepo.save(employe).subscribe();
 
 	}
 
